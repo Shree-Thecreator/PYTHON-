@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+nav{
+    background-color: rgb(163, 227, 227);
+    color: rgb(71, 8, 244);
+    margin: 7px;
+    height: 250px;
+    box-shadow: 400px rgb(19, 4, 4);
+}
+</style>
+    <button type="button" class="btn">Base class</button>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">My profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Messeges</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Requests
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Accept</a></li>
+            <li><a class="dropdown-item" href="#">Reject</a></li>
+            <li><a class="dropdown-divider" herf="#">Block and report</a></li>
+            <li><a class="dropdown-item" href="#">Delete this</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search Friends</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</body>
+</html>
